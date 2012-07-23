@@ -20,7 +20,7 @@ namespace EPiBooks.Controllers.Blocks {
             var latestBooks = Enumerable.Empty<BookPage>();
             var bookRoot = latestBooksBlock.BookRoot;
             if (!PageReference.IsNullOrEmpty(bookRoot)) {
-                latestBooks = contentRepository.GetChildren<BookPage>(bookRoot);
+                latestBooks = contentRepository.GetChildren<BookPage>(bookRoot, LanguageSelector.AutoDetect(true), 0, 5).OrderByDescending(x => x.StartPublish);
             }
             return View(new LatestBooksViewModel(latestBooksBlock, latestBooks));
         }
