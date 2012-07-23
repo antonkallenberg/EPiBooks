@@ -227,10 +227,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Models\StartPageViewModel.cs" />
+    <Compile Include="MvcTemplatesInitializer.cs" />
     <Compile Include="PageTypes\BookPage.cs" />
     <Compile Include="PageTypes\Folder.cs" />
     <Compile Include="PageTypes\StartPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StructureMapDependencyResolver.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />
