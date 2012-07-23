@@ -1,4 +1,5 @@
 ﻿@using EPiServer.Web.Mvc.Html
+@using EPiBooks.Models
 
 <!DOCTYPE html>
 <html>
@@ -10,7 +11,8 @@
 </head>
 <body>
     @{Html.RenderEPiServerQuickNavigator();}
-    <section id="MainSection">
+    <section id="MainSection">  
+        @Html.Partial("TopMenu", new NavigationContext())
         @RenderBody()
     </section>
 </body>

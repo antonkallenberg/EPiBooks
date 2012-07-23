@@ -218,6 +218,7 @@
   <ItemGroup>
     <Compile Include="BlockTypes\LatestBooksBlock.cs" />
     <Compile Include="BlockTypes\TextBlock.cs" />
+    <Compile Include="Controllers\ArticleController.cs" />
     <Compile Include="Controllers\Blocks\LatestBooksController.cs" />
     <Compile Include="Controllers\Blocks\ContentDataRendererController.cs" />
     <Compile Include="Controllers\BookController.cs" />
@@ -228,8 +229,10 @@
       <DependentUpon>Global.asax</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Models\NavigationContext.cs" />
     <Compile Include="Models\StartPageViewModel.cs" />
     <Compile Include="MvcTemplatesInitializer.cs" />
+    <Compile Include="PageTypes\ArticlePage.cs" />
     <Compile Include="PageTypes\BookPage.cs" />
     <Compile Include="PageTypes\Folder.cs" />
     <Compile Include="PageTypes\StartPage.cs" />
@@ -285,6 +288,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\TextBlock.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\TopMenu.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Article\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
