@@ -6,7 +6,7 @@
 @if (Model.LatestBooks.Any()) {
     <ul>
         @foreach (var book in Model.LatestBooks) {
-            <li>@book.BookName</li>
+            <li>@Html.ContentLink(book)</li>
         }
     </ul>
 }
