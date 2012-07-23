@@ -14,7 +14,9 @@
 
 <div id="PropertyWrapper">
     @foreach (var property in Model.Properties) {
-        <div><strong>@property.Name</strong></div>
-        <div>@Html.Raw(property.Value.ToString())</div>       
+        if (!string.IsNullOrEmpty(property.Name) && property.Value != null) {
+            <div><strong>@property.Name</strong></div>
+            <div>@Html.Raw(property.Value.ToString())</div>       
+        }
     }
 </div>

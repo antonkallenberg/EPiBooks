@@ -9,10 +9,10 @@ using System;
 
 namespace EPiBooks.Controllers.Blocks {
     [RenderDescriptor(Inherited = true, Tags = new[] { TagConstants.Preview })]
-    public class PreviewBlockController : ActionControllerBase, IRenderTemplate<IContentData> {
+    public class ContentDataRendererController : ActionControllerBase, IRenderTemplate<IContentData> {
         private readonly IContentRepository contentRepository;
 
-        public PreviewBlockController(IContentRepository contentRepository) {
+        public ContentDataRendererController(IContentRepository contentRepository) {
             this.contentRepository = contentRepository;
         }
 
