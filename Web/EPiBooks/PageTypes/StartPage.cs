@@ -33,5 +33,13 @@ namespace EPiBooks.PageTypes {
             GroupName = SystemTabNames.Content,
             Order = 3)]
         public virtual LatestBooksBlock LatestBooks { get; set; }
+
+        [CultureSpecific]
+        [Display(
+            Name = "Content area",
+            Description = "A content for adding any shared block",
+            GroupName = SystemTabNames.Content,
+            Order = 8)]
+        public virtual ContentArea ContentArea { get; set; }
     }
 }

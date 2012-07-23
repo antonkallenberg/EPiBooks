@@ -1,0 +1,20 @@
+﻿@using EPiServer.Web.Mvc.Html
+@model EPiServer.Core.IContent
+
+@{
+    ViewBag.Title = "Block preview mode";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style type="text/css">
+#PropertyWrapper {
+    width: 60%;
+}
+</style>
+
+<div id="PropertyWrapper">
+    @foreach (var property in Model.Properties) {
+        <div><strong>@property.Name</strong></div>
+        <div>@Html.Raw(property.Value.ToString())</div>       
+    }
+</div>

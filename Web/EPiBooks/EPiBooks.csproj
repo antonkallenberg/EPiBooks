@@ -217,7 +217,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BlockTypes\LatestBooksBlock.cs" />
+    <Compile Include="BlockTypes\TextBlock.cs" />
     <Compile Include="Controllers\Blocks\LatestBooksController.cs" />
+    <Compile Include="Controllers\Blocks\PreviewBlockController.cs" />
     <Compile Include="Controllers\BookController.cs" />
     <Compile Include="Models\Blocks\LatestBooksViewModel.cs" />
     <Compile Include="Models\BookPageViewModel.cs" />
@@ -277,6 +279,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\LatestBooks\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\PreviewBlock\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\TextBlock.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
