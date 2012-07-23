@@ -1,0 +1,12 @@
+﻿@using System.Linq;
+@using EPiServer.Web.Mvc.Html
+@model EPiBooks.Models.Blocks.LatestBooksViewModel
+
+<h1>@Html.PropertyFor(x => x.LatestBooksBlock.Heading)</h1>
+@if (Model.LatestBooks.Any()) {
+    <ul>
+        @foreach (var book in Model.LatestBooks) {
+            <li>@book.BookName</li>
+        }
+    </ul>
+}

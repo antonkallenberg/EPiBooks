@@ -1,0 +1,10 @@
+﻿@using EPiServer.Web.Mvc.Html
+@model EPiBooks.Models.BookPageViewModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Html.PropertyFor(x => x.CurrentPage.BookName)</h2>
+<p>@Html.PropertyFor(x => x.CurrentPage.MainBody)</p>

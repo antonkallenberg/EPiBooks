@@ -1,0 +1,17 @@
+﻿@using EPiServer.Web.Mvc.Html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="@Href(Url.Content("~/Content/Normalize.css"))" media="all"/>
+    <link rel="stylesheet" href="@Href(Url.Content("~/Content/Site.css"))" media="all"/>
+</head>
+<body>
+    @{Html.RenderEPiServerQuickNavigator();}
+    <section id="MainSection">
+        @RenderBody()
+    </section>
+</body>
+</html>
