@@ -1,9 +1,10 @@
 ﻿@using EPiServer.Web.Mvc.Html
+@using EPiServer.Web.Routing
 @model EPiBooks.Models.NavigationContext
 
 <menu id="TopMenu">
     <ul>
-        @foreach (var item in Model.GetItems(EPiServer.Core.PageReference.StartPage)) {
+        @foreach (var item in Model.GetItems(EPiServer.Core.PageReference.StartPage, Html.ViewContext.RequestContext.GetContentLink(), true)) {
             <li>@Html.ContentLink(item.Item, null, new { @class = item.IsSelected ? "selected" : string.Empty })</li>
         }
     </ul>

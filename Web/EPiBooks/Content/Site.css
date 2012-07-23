@@ -1,3 +1,6 @@
 ﻿body {
     background: #fff;
 }
+menu#TopMenu .selected {
+    font-weight: bold;
+}
