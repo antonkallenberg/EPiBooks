@@ -16,7 +16,7 @@ namespace EPiBooks.Tests {
     [Subject("LatestBooksControllerSpecs")]
     public class LatestBooksControllerSpecs {
 
-        public class heading_is_returned_to_view_if_retured_from_data_store {
+        public class heading_is_returned_to_view_if_returned_from_data_store {
 
             private static readonly Mock<IContentRepository> ContentRepositoryMock = new Mock<IContentRepository>();
             private static readonly Mock<LatestBooksBlock> LatestBooksBlockMock = new Mock<LatestBooksBlock>();
@@ -45,9 +45,7 @@ namespace EPiBooks.Tests {
             private static readonly Mock<IContentRepository> ContentRepositoryMock = new Mock<IContentRepository>();
             private static readonly Mock<LatestBooksBlock> LatestBooksBlockMock = new Mock<LatestBooksBlock>();
 
-            private Establish setup = () => {
-                LatestBooksBlockMock.SetupProperty(x => x.BookRoot, PageReference.EmptyReference);
-            };
+            private Establish setup = () => LatestBooksBlockMock.SetupProperty(x => x.BookRoot, PageReference.EmptyReference);
 
             private static LatestBooksViewModel viewModel;
             private Because index_is_execuded_without_a_book_folder_root = () => {
