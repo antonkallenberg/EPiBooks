@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPiBooks", "EPiBooks\EPiBooks.csproj", "{D11FDDC5-2940-4E9F-8E0B-D0DE275C5781}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPiBooks.Tests", "..\EPiBooks.Tests\EPiBooks.Tests.csproj", "{55A201EB-061C-485B-AF0E-5570C5769E4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{D11FDDC5-2940-4E9F-8E0B-D0DE275C5781}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D11FDDC5-2940-4E9F-8E0B-D0DE275C5781}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D11FDDC5-2940-4E9F-8E0B-D0DE275C5781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A201EB-061C-485B-AF0E-5570C5769E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A201EB-061C-485B-AF0E-5570C5769E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A201EB-061C-485B-AF0E-5570C5769E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A201EB-061C-485B-AF0E-5570C5769E4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
