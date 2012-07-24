@@ -9,7 +9,8 @@ using EPiServer;
 using EPiServer.Core;
 using Machine.Specifications;
 using Moq;
-using MIt = Machine.Specifications.It;
+using It = Machine.Specifications.It;
+using ItIs = Moq.It;
 
 namespace EPiBooks.Tests {
     public class LatestBooksControllerSpecs {
@@ -32,7 +33,7 @@ namespace EPiBooks.Tests {
                 viewModel = view.Model as LatestBooksViewModel;
             };
 
-            private MIt title_is_passed_to_view = () => viewModel.LatestBooksBlock.Heading.Equals("latest books", StringComparison.OrdinalIgnoreCase);
+            private It title_is_passed_to_view = () => viewModel.LatestBooksBlock.Heading.Equals("latest books", StringComparison.OrdinalIgnoreCase);
         }
 
         public class empty_book_list_is_retured
@@ -49,7 +50,7 @@ namespace EPiBooks.Tests {
                 viewModel = view.Model as LatestBooksViewModel;
             };
 
-            private MIt latest_books_should_be_empty = () => viewModel.LatestBooks.ShouldBeEmpty();
+            private It latest_books_should_be_empty = () => viewModel.LatestBooks.ShouldBeEmpty();
         }
     }
 }
