@@ -41,6 +41,7 @@ namespace EPiBooks.Tests {
         }
 
         public class empty_book_list_is_retured {
+
             private static readonly Mock<IContentRepository> ContentRepositoryMock = new Mock<IContentRepository>();
             private static readonly Mock<LatestBooksBlock> LatestBooksBlockMock = new Mock<LatestBooksBlock>();
 
