@@ -16,7 +16,7 @@ namespace EPiBooks.Tests {
     [Subject("LatestBooksControllerSpecs")]
     public class LatestBooksControllerSpecs {
 
-        public class heading_is_returned_to_view {
+        public class heading_is_returned_to_view_if_retured_from_data_store {
 
             private static readonly Mock<IContentRepository> ContentRepositoryMock = new Mock<IContentRepository>();
             private static readonly Mock<LatestBooksBlock> LatestBooksBlockMock = new Mock<LatestBooksBlock>();
@@ -40,7 +40,7 @@ namespace EPiBooks.Tests {
             };
         }
 
-        public class empty_book_list_is_retured {
+        public class empty_book_list_is_retured_to_view_if_book_root_is_not_set {
 
             private static readonly Mock<IContentRepository> ContentRepositoryMock = new Mock<IContentRepository>();
             private static readonly Mock<LatestBooksBlock> LatestBooksBlockMock = new Mock<LatestBooksBlock>();
@@ -56,7 +56,7 @@ namespace EPiBooks.Tests {
                 viewModel = view.Model as LatestBooksViewModel;
             };
 
-            private It latest_books_should_be_empty = () => {
+            private It latest_book_list_in_view_is_empty = () => {
                 viewModel.LatestBooks.ShouldBeEmpty();
                 ContentRepositoryMock.Verify(x => x.GetChildren<BookPage>(ItIs.IsAny<ContentReference>()), Times.Never());
             };
