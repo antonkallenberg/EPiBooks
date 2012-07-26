@@ -1,4 +1,5 @@
-﻿@using EPiServer.Web.Mvc.Html
+﻿@using ServiceStack.Mvc
+@using EPiServer.Web.Mvc.Html
 @using EPiBooks.Models
 
 <!DOCTYPE html>
@@ -6,10 +7,15 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    <link rel="stylesheet" href="@Href(Url.Content("~/Content/Normalize.css"))" media="all"/>
-    <link rel="stylesheet" href="@Href(Url.Content("~/Content/Site.css"))" media="all"/>
+    @if (HttpContext.Current.IsDebuggingEnabled) {
+        @Html.RenderCssBundle("~/Content/app.css.bundle", BundleOptions.Normal)
+        @Html.RenderJsBundle("~/Scripts/app.js.bundle", BundleOptions.Normal)
+    } else {
+        @Html.RenderCssBundle("~/Content/app.css.bundle", BundleOptions.MinifiedAndCombined)
+        @Html.RenderJsBundle("~/Scripts/app.js.bundle", BundleOptions.MinifiedAndCombined)
+    }
 </head>
-<body>
+<body id="@ViewBag.BodyId">
     @{Html.RenderEPiServerQuickNavigator();}
     <section id="MainSection">  
         @Html.Partial("TopMenu", new NavigationContext())

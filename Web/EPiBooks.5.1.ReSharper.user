@@ -8,68 +8,68 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Models/f:StartPageViewModel.cs" caret="208" fromTop="7" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:PageTypes/f:ArticlePage.cs" caret="169" fromTop="5" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Views/d:Shared/f:_Layout.cshtml" caret="0" fromTop="0" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Views/d:Article/f:Index.cshtml" caret="63" fromTop="1" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/f:ArticleController.cs" caret="173" fromTop="5" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:PageTypes/f:BookPage.cs" caret="0" fromTop="0" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Content/f:Site.css" caret="87" fromTop="6" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Models/f:NavigationContext.cs" caret="735" fromTop="15" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Views/d:ContentDataRenderer/f:Index.cshtml" caret="547" fromTop="21" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Views/d:Book/f:Index.cshtml" caret="0" fromTop="0" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Views/d:Shared/f:TopMenu.cshtml" caret="134" fromTop="5" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:App_Start/f:RouteConfig.cs" caret="362" fromTop="14" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:App_Start/f:FilterConfig.cs" caret="230" fromTop="9" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Properties/f:AssemblyInfo.cs" caret="1170" fromTop="28" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:Global.asax.cs" caret="0" fromTop="0" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Views/d:Startpage/f:Index.cshtml" caret="57" fromTop="1" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/f:BookController.cs" caret="231" fromTop="6" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:PageTypes/f:Folder.cs" caret="548" fromTop="12" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/f:StartpageController.cs" caret="331" fromTop="11" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Models/d:Blocks/f:LatestBooksViewModel.cs" caret="247" fromTop="6" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:StructureMapDependencyResolver.cs" caret="1169" fromTop="32" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:MvcTemplatesInitializer.cs" caret="776" fromTop="20" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Views/d:LatestBooks/f:Index.cshtml" caret="331" fromTop="11" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:PageTypes/f:StartPage.cs" caret="1701" fromTop="34" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BlockTypes/f:TextBlock.cs" caret="176" fromTop="6" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Views/d:Shared/f:TextBlock.cshtml" caret="55" fromTop="2" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BlockTypes/f:LatestBooksBlock.cs" caret="427" fromTop="11" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:ContentDataRendererController.cs" caret="0" fromTop="0" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:LatestBooksController.cs" caret="765" fromTop="18" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2185" fromTop="26" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Models/f:StartPageViewModel.cs" caret="114" fromTop="5" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:LatestBooksController.cs" caret="1086" fromTop="25" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/f:StartpageController.cs" caret="286" fromTop="7" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/f:BookController.cs" caret="0" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/f:ArticleController.cs" caret="0" fromTop="0" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="916" fromTop="24" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:MvcTemplatesInitializer.cs" caret="1352" fromTop="38" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:StructureMapDependencyResolver.cs" caret="479" fromTop="15" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:bundler/d:node_modules/d:coffee-script/d:lib/d:coffee-script/f:index.js" caret="171" fromTop="10" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:bundler/d:node_modules/d:coffee-script/d:lib/d:coffee-script/f:coffee-script.js" caret="427" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:bundler/f:coffee.cmd" caret="0" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:bundler/f:bundler.js" caret="948" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:ContentDataRendererController.cs" caret="1080" fromTop="22" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:PageTypes/f:BookPage.cs" caret="0" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:PageTypes/f:Folder.cs" caret="0" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:bundler/f:bundler.cmd" caret="168" fromTop="9" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Content/f:app.css.bundle" caret="23" fromTop="1" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Content/f:Site.css" caret="0" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Content/f:Normalize.css" caret="645" fromTop="13" />
     </RecentFiles>
     <RecentEdits>
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Views/d:Shared/f:TopMenu.cshtml" caret="398" fromTop="10" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Views/d:Shared/f:TopMenu.cshtml" caret="431" fromTop="11" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Views/d:Shared/f:TopMenu.cshtml" caret="393" fromTop="7" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Views/d:LatestBooks/f:Index.cshtml" caret="296" fromTop="8" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/f:BookController.cs" caret="320" fromTop="10" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:PageTypes/f:Folder.cs" caret="385" fromTop="8" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/f:BookController.cs" caret="231" fromTop="6" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:ContentDataRendererController.cs" caret="871" fromTop="15" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:ContentDataRendererController.cs" caret="871" fromTop="23" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:ContentDataRendererController.cs" caret="871" fromTop="19" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:ContentDataRendererController.cs" caret="871" fromTop="11" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:ContentDataRendererController.cs" caret="975" fromTop="21" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:ContentDataRendererController.cs" caret="424" fromTop="11" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:PageTypes/f:StartPage.cs" caret="1886" fromTop="38" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:LatestBooksController.cs" caret="649" fromTop="15" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="1111" fromTop="14" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="1111" fromTop="17" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="286" fromTop="7" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="14" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="17" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:LatestBooksController.cs" caret="597" fromTop="9" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:LatestBooksController.cs" caret="1080" fromTop="19" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="404" fromTop="0" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="1097" fromTop="9" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="1782" fromTop="19" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="1254" fromTop="25" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="685" fromTop="10" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="1843" fromTop="21" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2140" fromTop="22" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2082" fromTop="28" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="1625" fromTop="23" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2689" fromTop="40" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="19" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="25" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="733" fromTop="10" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="21" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2443" fromTop="22" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="328" fromTop="12" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="32" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="23" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="23" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="11" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="11" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="1184" fromTop="8" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="1968" fromTop="20" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2078" fromTop="36" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2941" fromTop="43" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="522" fromTop="18" />
+      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2385" fromTop="34" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:MvcTemplatesInitializer.cs" caret="633" fromTop="13" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:ContentDataRendererController.cs" caret="1080" fromTop="22" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Content/f:app.css.bundle" caret="23" fromTop="1" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -115,7 +115,7 @@
       <Item value="ITemplateResolver`0" priority="0" />
       <Item value="templateResolver" priority="1" />
       <Item value="this" priority="2" />
-      <Item value="BookPage`0" priority="6" />
+      <Item value="BookPage`0" priority="7" />
       <Item value="BookController`0" priority="0" />
       <Item value="PageData`0" priority="1" />
       <Item value="Inherited" priority="0" />
@@ -147,7 +147,7 @@
       <Item value="parent" priority="1" />
       <Item value="includeSelf" priority="0" />
       <Item value="Enumerable`0" priority="0" />
-      <Item value="ContentReference`0" priority="0" />
+      <Item value="ContentReference`0" priority="1" />
       <Item value="selected" priority="0" />
       <Item value="FolderController`0" priority="0" />
       <Item value="PageContext" priority="0" />
@@ -169,7 +169,7 @@
       <Item value="LatestBooksBlock" priority="0" />
       <Item value="ContentReference" priority="0" />
       <Item value="Mock&lt;ContentReference&gt;" priority="0" />
-      <Item value="x" priority="7" />
+      <Item value="x" priority="10" />
       <Item value="Mock&lt;LatestBooksBlock&gt;" priority="0" />
       <Item value="PageReference" priority="0" />
       <Item value="It" priority="0" />
@@ -181,10 +181,17 @@
       <Item value="viewModel" priority="1" />
       <Item value="It`0" priority="0" />
       <Item value="OrdinalIgnoreCase" priority="0" />
-      <Item value="ILanguageSelector`0" priority="0" />
+      <Item value="ILanguageSelector`0" priority="1" />
       <Item value="languageSelector" priority="0" />
       <Item value="LanguageSelectorContext" priority="1" />
       <Item value="Mock&lt;LanguageSelector&gt;" priority="0" />
+      <Item value="Subject" priority="0" />
+      <Item value="char" priority="0" />
+      <Item value="TimeoutException`0" priority="0" />
+      <Item value="ItIs" priority="1" />
+      <Item value="NullLanguageSelector`0" priority="0" />
+      <Item value="context" priority="0" />
+      <Item value="CacheManager`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@EPiServer.DataAbstraction.SystemTabNames">
       <Item value="Content" priority="1" />
@@ -217,8 +224,9 @@
       <Item value="Heading" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:EPiServer.IContentRepository">
-      <Item value="GetChildren`1" priority="2" />
+      <Item value="GetChildren`1" priority="3" />
       <Item value="GetType`0" priority="0" />
+      <Item value="Get`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Linq.Enumerable">
       <Item value="Empty`1" priority="2" />
@@ -266,12 +274,14 @@
       <Item value="Object" priority="5" />
       <Item value="Setup`1" priority="1" />
       <Item value="SetupProperty`1" priority="3" />
+      <Item value="Verify`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:EPiBooks.Controllers.Blocks.LatestBooksController">
       <Item value="Index`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Moq.It">
       <Item value="Is`1" priority="0" />
+      <Item value="IsAny`1" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Moq.Language.Flow.ISetup`2">
       <Item value="Returns`16" priority="0" />
@@ -296,6 +306,23 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:EPiServer.Core.LanguageSelector">
       <Item value="LanguageBranch" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Moq.Times">
+      <Item value="Once`0" priority="0" />
+      <Item value="Never`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.IContainer">
+      <Item value="BuildUp`0" priority="0" />
+      <Item value="Configure`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EPiServer.ServiceLocation.ServiceConfigurationContext">
+      <Item value="Container" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.ConfigurationExpression">
+      <Item value="For`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Configuration.DSL.Expressions.GenericFamilyExpression">
+      <Item value="TheDefaultIsConcreteType`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

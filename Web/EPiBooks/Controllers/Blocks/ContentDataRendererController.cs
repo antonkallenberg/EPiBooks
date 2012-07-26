@@ -20,7 +20,7 @@ namespace EPiBooks.Controllers.Blocks {
             var contentLink = ControllerContext.RequestContext.GetContentLink();
             var languageSelector = String.IsNullOrEmpty(ControllerContext.RequestContext.GetLang()) ? LanguageSelector.MasterLanguage() : new LanguageSelector(ControllerContext.RequestContext.GetLang());
             var content = contentRepository.Get<IContent>(contentLink, languageSelector);
-
+            
             return View(content);
         }
     }
