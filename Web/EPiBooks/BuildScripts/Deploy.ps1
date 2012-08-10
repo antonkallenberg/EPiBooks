@@ -27,6 +27,13 @@ task setup {
 	Remove-ThenAddFolder $deployPkgDir
 	Remove-ThenAddFolder $backupDir
 	Remove-ThenAddFolder "$backupDir\$dateLabel"
+
+	$a = Get-ChildItem "$sourceDir\Libraries\EPiServer.*"
+	if (-not $a.Count)
+	{
+		robocopy "C:\Program Files (x86)\EPiServer\CMS\7.0.449.1\bin" "$sourceDir\Libraries" EPiServer.*
+		robocopy "C:\Program Files (x86)\EPiServer\Framework\7.0.722.1\bin" "$sourceDir\Libraries" EPiServer.*
+	}
 }
 
 task compile -depends setup {
