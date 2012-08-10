@@ -437,7 +437,7 @@
     </VisualStudio>
   </ProjectExtensions>
   <PropertyGroup>
-    <PostBuildEvent>if $(ConfigurationName) == Debug (powershell $(ProjectDir)BuildScripts\Bundle.ps1)</PostBuildEvent>
+    <PostBuildEvent>if /I "$(ConfigurationName)" == "Debug" powershell $(ProjectDir)BuildScripts\Bundle.ps1</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
