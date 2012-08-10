@@ -9,7 +9,7 @@
 	$testBaseDir = "$baseDir\EPiBooks.Tests\"
     $config = 'debug'
 	$environment = 'debug'
-	$ftpProductionHost = 'ftp://127.0.0.1:55/'
+	$ftpProductionHost = 'ftp://127.0.0.1:21/'
 	$ftpProductionUsername = 'anton'
 	$ftpProductionPassword = 'anton'
 	$ftpProductionWebRootFolder = "www"
@@ -17,9 +17,7 @@
 }
 
 task default -depends local
- 
 task local -depends copyPkg
-
 task production -depends deploy
 
 task setup {	
@@ -46,8 +44,14 @@ task test -depends compile {
 task deploy -depends copyPkg {
 	if($environment -ieq "production") {
 		Set-FtpConnection $ftpProductionHost $ftpProductionUsername $ftpProductionPassword
-		Get-FromFtp "$backupDir\$dateLabel" "$ftpProductionHost/$ftpProductionWebRootFolder"
-		Send-ToFtp "$backupDir\$dateLabel" "$ftpProductionHost/$ftpProductionWebRootFolder"
+		#backup
+		$localBackupDir = Remove-LastChar "$backupDir" 
+		Get-FromFtp "$backupDir\$dateLabel" "$ftpProductionWebRootFolder"
+		Send-ToFtp "$localBackupDir" "$ftpProductionBackupFolder"
+		#redeploy
+		Remove-FromFtp "$ftpProductionWebRootFolder"
+		$localDeployPkgDir = Remove-LastChar "$deployPkgDir"
+		Send-ToFtp "$localDeployPkgDir" "$ftpProductionWebRootFolder"
 	}
 	"deployed to $environment"
 }
@@ -58,4 +62,8 @@ function Remove-ThenAddFolder([string]$name) {
 		Remove-Item $name -Recurse	
 	}
 	New-Item -Path $name -ItemType "directory"
+}
+
+function Remove-LastChar([string]$str) {
+	$str.Remove(($str.Length-1),1)
 }

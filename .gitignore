@@ -4,6 +4,7 @@ obj
 
 # mstest test results
 TestResults
+Deploy
 
 /Vpp/Global
 /Vpp/Packaging
