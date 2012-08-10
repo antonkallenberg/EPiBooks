@@ -38,7 +38,7 @@ task setup {
 
 task compile -depends setup {
 	exec { msbuild  $sourceDir\EPiBooks.sln /t:Clean /t:Build /p:Configuration=$config /v:q /nologo }
-	.\Bundle.ps1
+	Powershell.exe -noprofile -executionpolicy Bypass -file .\Bundle.ps1
 }
 
 task test -depends compile { 
