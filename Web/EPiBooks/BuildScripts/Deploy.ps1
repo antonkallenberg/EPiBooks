@@ -14,10 +14,11 @@
 	$ftpProductionPassword = 'anton'
 	$ftpProductionWebRootFolder = "www"
 	$ftpProductionBackupFolder = "backup"
+	$deployToFtp = $true
 }
 
 task default -depends local
-task local -depends copyPkg
+task local -depends mergeConfig
 task production -depends deploy
 
 task setup {	
@@ -33,16 +34,26 @@ task compile -depends setup {
 	.\Bundle.ps1
 }
 
-task copyPkg -depends test { 
-		robocopy "$sourceDir\EPiBooks" $deployPkgDir /MIR /XD obj bundler Configurations Properties /XF *.bundle *.coffee *.less *.pdb *.cs *.csproj *.csproj.user *.sln .gitignore README.txt packages.config
-}
-
 task test -depends compile { 
 	&"$sourceDir\packages\Machine.Specifications.0.5.7\tools\mspec-clr4.exe" "$testBaseDir\bin\$config\EPiBooks.Tests.dll" 
 }
 
-task deploy -depends copyPkg {
+
+task copyPkg -depends test { 
+	robocopy "$sourceDir\EPiBooks" $deployPkgDir /MIR /XD obj bundler Configurations Properties /XF *.bundle *.coffee *.less *.pdb *.cs *.csproj *.csproj.user *.sln .gitignore README.txt packages.config
+}
+
+task mergeConfig -depends copyPkg { 
 	if($environment -ieq "production") {
+		Remove-FileIfExists "$deployPkgDir\Web.config"
+		Remove-FileIfExists "$deployPkgDir\episerver.config" 
+		&"$toolsDir\Config.Transformation.Tool.v1.2\ctt.exe" "s:$sourceDir\EPiBooks\Web.config" "t:$sourceDir\EPiBooks\ConfigTransformations\Production\Web.Transform.Config" "d:$deployPkgDir\Web.config"
+		&"$toolsDir\Config.Transformation.Tool.v1.2\ctt.exe" "s:$sourceDir\EPiBooks\episerver.config" "t:$sourceDir\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config" "d:$deployPkgDir\episerver.config"
+	}
+}
+
+task deploy -depends mergeConfig {
+	if($environment -ieq "production" -and $deployToFtp -eq $true) {
 		Set-FtpConnection $ftpProductionHost $ftpProductionUsername $ftpProductionPassword
 		#backup
 		$localBackupDir = Remove-LastChar "$backupDir" 
@@ -53,14 +64,18 @@ task deploy -depends copyPkg {
 		$localDeployPkgDir = Remove-LastChar "$deployPkgDir"
 		Send-ToFtp "$localDeployPkgDir" "$ftpProductionWebRootFolder"
 	}
-	"deployed to $environment"
 }
 
-function Remove-ThenAddFolder([string]$name) {
+#helper methods
+function Remove-FileIfExists([string]$name) {
 	if ((Test-Path -path $name)) {
 		dir $name -recurse | where {!@(dir -force $_.fullname)} | rm
 		Remove-Item $name -Recurse	
 	}
+}
+
+function Remove-ThenAddFolder([string]$name) {
+	Remove-FileIfExists $name
 	New-Item -Path $name -ItemType "directory"
 }
 

@@ -318,6 +318,9 @@
     <Content Include="modulesbin\NuGet.Core.dll" />
     <Content Include="README.txt" />
     <None Include="BuildScripts\Bundle.ps1" />
+    <None Include="BuildScripts\Deploy.ps1" />
+    <Content Include="ConfigTransformations\Production\Web.Transform.Config" />
+    <Content Include="ConfigTransformations\Production\episerver.Transform.config" />
     <None Include="Content\Startpage.less" />
     <None Include="Scripts\Bootstrapper.coffee">
       <Compile>False</Compile>
@@ -329,10 +332,26 @@
     <Content Include="Scripts\jquery-1.7.2.js" />
     <Content Include="Scripts\jquery-1.7.2.min.js" />
     <Content Include="Scripts\Startpage.js" />
+    <Content Include="Tools\Config.Transformation.Tool.v1.2\ctt.exe" />
+    <Content Include="Tools\Config.Transformation.Tool.v1.2\Examples\03\parameters.xml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Views\Web.config" />
+    <Content Include="Tools\Config.Transformation.Tool.v1.2\ctt.exe.config" />
+    <None Include="Tools\Config.Transformation.Tool.v1.2\Examples\01\run.bat" />
+    <Content Include="Tools\Config.Transformation.Tool.v1.2\Examples\01\s.config" />
+    <Content Include="Tools\Config.Transformation.Tool.v1.2\Examples\01\t.config" />
+    <None Include="Tools\Config.Transformation.Tool.v1.2\Examples\02\run.bat" />
+    <Content Include="Tools\Config.Transformation.Tool.v1.2\Examples\02\s.config" />
+    <Content Include="Tools\Config.Transformation.Tool.v1.2\Examples\02\t.config" />
+    <None Include="Tools\Config.Transformation.Tool.v1.2\Examples\03\run.bat" />
+    <Content Include="Tools\Config.Transformation.Tool.v1.2\Examples\03\s.config" />
+    <Content Include="Tools\Config.Transformation.Tool.v1.2\Examples\03\t.config" />
+    <None Include="Tools\ftp.psm1" />
+    <None Include="Tools\psake-config.ps1" />
+    <None Include="Tools\psake.ps1" />
+    <None Include="Tools\psake.psm1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

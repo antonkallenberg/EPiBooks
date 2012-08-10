@@ -1,0 +1,477 @@
+[Application Starts]
+2012-08-10 13:04:21 Create Transformation Task.
+2012-08-10 13:04:21 Start tranformation to 'C:\out.config'.
+2012-08-10 13:04:21 Source file: 'C:\Projects\EPiBooks\Web\EPiBooks\web.config'.
+2012-08-10 13:04:21 Transform  file: 'C:\Projects\EPiBooks\Web\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:04:21 Executing Replace (transform line 7, 22)
+2012-08-10 13:04:21 on /configuration/system.web/compilation
+2012-08-10 13:04:21 Applying to 'compilation' element (no source line info)
+2012-08-10 13:04:21 Replaced 'compilation' element
+2012-08-10 13:04:21 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 13:19:16 Create Transformation Task.
+2012-08-10 13:19:16 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\web.config'.
+2012-08-10 13:19:16 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\web.config'.
+2012-08-10 13:19:16 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:19:16 Executing Replace (transform line 7, 22)
+2012-08-10 13:19:16 on /configuration/system.web/compilation
+2012-08-10 13:19:16 Applying to 'compilation' element (no source line info)
+2012-08-10 13:19:16 Replaced 'compilation' element
+2012-08-10 13:19:16 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 13:19:19 Create Transformation Task.
+2012-08-10 13:19:19 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\web.config'.
+2012-08-10 13:19:19 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\web.config'.
+2012-08-10 13:19:19 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:19:19 Executing Replace (transform line 7, 22)
+2012-08-10 13:19:19 on /configuration/system.web/compilation
+2012-08-10 13:19:19 Applying to 'compilation' element (no source line info)
+2012-08-10 13:19:19 Replaced 'compilation' element
+2012-08-10 13:19:19 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 13:19:51 Create Transformation Task.
+2012-08-10 13:19:51 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\web.config'.
+2012-08-10 13:19:51 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\web.config'.
+2012-08-10 13:19:51 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:19:51 Executing Replace (transform line 7, 22)
+2012-08-10 13:19:51 on /configuration/system.web/compilation
+2012-08-10 13:19:51 Applying to 'compilation' element (no source line info)
+2012-08-10 13:19:51 Replaced 'compilation' element
+2012-08-10 13:19:51 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 13:20:13 Create Transformation Task.
+2012-08-10 13:20:13 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\web.config'.
+2012-08-10 13:20:13 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\web.config'.
+2012-08-10 13:20:13 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:20:13 Executing Replace (transform line 7, 22)
+2012-08-10 13:20:13 on /configuration/system.web/compilation
+2012-08-10 13:20:13 Applying to 'compilation' element (no source line info)
+2012-08-10 13:20:13 Replaced 'compilation' element
+2012-08-10 13:20:13 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 13:20:40 Create Transformation Task.
+2012-08-10 13:20:40 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\web.config'.
+2012-08-10 13:20:40 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\web.config'.
+2012-08-10 13:20:40 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:20:40 Executing Replace (transform line 7, 22)
+2012-08-10 13:20:40 on /configuration/system.web/compilation
+2012-08-10 13:20:40 Applying to 'compilation' element (no source line info)
+2012-08-10 13:20:40 Replaced 'compilation' element
+2012-08-10 13:20:40 Done executing Replace
+[Application Stops]
+[Application Starts]
+[Application Stops]
+[Application Starts]
+[Application Stops]
+[Application Starts]
+[Application Stops]
+[Application Starts]
+2012-08-10 13:29:25 Create Transformation Task.
+2012-08-10 13:29:25 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 13:29:25 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 13:29:25 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:29:25 Executing Replace (transform line 7, 22)
+2012-08-10 13:29:25 on /configuration/system.web/compilation
+2012-08-10 13:29:25 Applying to 'compilation' element (no source line info)
+2012-08-10 13:29:25 Replaced 'compilation' element
+2012-08-10 13:29:25 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 13:36:29 Create Transformation Task.
+2012-08-10 13:36:29 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 13:36:29 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 13:36:29 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:36:29 Executing Replace (transform line 7, 22)
+2012-08-10 13:36:29 on /configuration/system.web/compilation
+2012-08-10 13:36:29 Applying to 'compilation' element (no source line info)
+2012-08-10 13:36:29 Replaced 'compilation' element
+2012-08-10 13:36:29 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 13:36:29 Create Transformation Task.
+2012-08-10 13:36:29 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\episerver.config'.
+2012-08-10 13:36:29 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\episerver.config'.
+2012-08-10 13:36:29 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config'.
+2012-08-10 13:36:29 File: , LineNumber: 1, LinePosition: 2, Message: No element in the source document matches '/episerver'
+2012-08-10 13:36:29 Not executing Replace (transform line 6, 15)
+[Application Stops]
+[Application Starts]
+2012-08-10 13:37:52 Create Transformation Task.
+2012-08-10 13:37:52 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 13:37:52 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 13:37:52 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:37:52 Executing Replace (transform line 7, 22)
+2012-08-10 13:37:52 on /configuration/system.web/compilation
+2012-08-10 13:37:52 Applying to 'compilation' element (no source line info)
+2012-08-10 13:37:52 Replaced 'compilation' element
+2012-08-10 13:37:52 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 13:37:52 Create Transformation Task.
+2012-08-10 13:37:52 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\episerver.config'.
+2012-08-10 13:37:52 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\episerver.config'.
+2012-08-10 13:37:52 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config'.
+2012-08-10 13:37:52 File: , LineNumber: 1, LinePosition: 2, Message: No element in the source document matches '/episerver'
+2012-08-10 13:37:52 Not executing Replace (transform line 6, 15)
+[Application Stops]
+[Application Starts]
+2012-08-10 13:42:30 Create Transformation Task.
+2012-08-10 13:42:30 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 13:42:31 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 13:42:31 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:42:31 Executing Replace (transform line 7, 22)
+2012-08-10 13:42:31 on /configuration/system.web/compilation
+2012-08-10 13:42:31 Applying to 'compilation' element (no source line info)
+2012-08-10 13:42:31 Replaced 'compilation' element
+2012-08-10 13:42:31 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 13:42:31 Create Transformation Task.
+2012-08-10 13:42:31 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\episerver.config'.
+2012-08-10 13:42:31 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\episerver.config'.
+2012-08-10 13:42:31 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config'.
+2012-08-10 13:42:31 File: , LineNumber: 1, LinePosition: 2, Message: No element in the source document matches '/episerver'
+2012-08-10 13:42:31 Not executing Replace (transform line 6, 15)
+[Application Stops]
+[Application Starts]
+2012-08-10 13:46:20 Create Transformation Task.
+2012-08-10 13:46:20 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 13:46:20 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 13:46:20 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:46:20 Executing Replace (transform line 7, 22)
+2012-08-10 13:46:20 on /configuration/system.web/compilation
+2012-08-10 13:46:20 Applying to 'compilation' element (no source line info)
+2012-08-10 13:46:20 Replaced 'compilation' element
+2012-08-10 13:46:20 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 13:46:20 Create Transformation Task.
+2012-08-10 13:46:20 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\episerver.config'.
+2012-08-10 13:46:20 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\episerver.config'.
+2012-08-10 13:46:20 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config'.
+2012-08-10 13:46:20 File: , LineNumber: 1, LinePosition: 2, Message: No element in the source document matches '/episerver'
+2012-08-10 13:46:20 Not executing Replace (transform line 6, 15)
+[Application Stops]
+[Application Starts]
+2012-08-10 13:48:49 Create Transformation Task.
+2012-08-10 13:48:49 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 13:48:49 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 13:48:49 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:48:49 Executing Replace (transform line 7, 22)
+2012-08-10 13:48:49 on /configuration/system.web/compilation
+2012-08-10 13:48:49 Applying to 'compilation' element (no source line info)
+2012-08-10 13:48:49 Replaced 'compilation' element
+2012-08-10 13:48:49 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 13:48:50 Create Transformation Task.
+2012-08-10 13:48:50 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\episerver.config'.
+2012-08-10 13:48:50 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\episerver.config'.
+2012-08-10 13:48:50 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config'.
+2012-08-10 13:48:50 File: , LineNumber: 2, LinePosition: 2, Message: No element in the source document matches '/episerver'
+2012-08-10 13:48:50 Not executing Replace (transform line 7, 15)
+[Application Stops]
+[Application Starts]
+2012-08-10 13:49:27 Create Transformation Task.
+2012-08-10 13:49:27 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 13:49:27 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 13:49:27 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:49:27 Executing Replace (transform line 7, 22)
+2012-08-10 13:49:27 on /configuration/system.web/compilation
+2012-08-10 13:49:27 Applying to 'compilation' element (no source line info)
+2012-08-10 13:49:27 Replaced 'compilation' element
+2012-08-10 13:49:27 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 13:49:27 Create Transformation Task.
+2012-08-10 13:49:27 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\episerver.config'.
+2012-08-10 13:49:27 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\episerver.config'.
+2012-08-10 13:49:27 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config'.
+2012-08-10 13:49:27 System.Xml.XmlException: 'xdt' is an undeclared prefix. Line 5, position 15.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.AttributeNamespaceLookup()
+   at System.Xml.XmlTextReaderImpl.ParseAttributes()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at Microsoft.Web.Publishing.Tasks.XmlFileInfoDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at Microsoft.Web.Publishing.Tasks.XmlTransformation..ctor(String transform, Boolean isTransformAFile, IXmlTransformationLogger logger)
+   at ConfigTransformationTool.Base.TransformationTask.Execute(String destinationFilePath, Boolean forceParametersTask)
+[Application Stops]
+[Application Starts]
+2012-08-10 13:50:08 Create Transformation Task.
+2012-08-10 13:50:08 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 13:50:08 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 13:50:08 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:50:08 Executing Replace (transform line 7, 22)
+2012-08-10 13:50:08 on /configuration/system.web/compilation
+2012-08-10 13:50:08 Applying to 'compilation' element (no source line info)
+2012-08-10 13:50:08 Replaced 'compilation' element
+2012-08-10 13:50:08 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 13:50:08 Create Transformation Task.
+2012-08-10 13:50:08 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\episerver.config'.
+2012-08-10 13:50:08 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\episerver.config'.
+2012-08-10 13:50:08 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config'.
+2012-08-10 13:50:08 File: , LineNumber: 1, LinePosition: 2, Message: No element in the source document matches '/episerver'
+2012-08-10 13:50:08 Not executing Replace (transform line 6, 15)
+[Application Stops]
+[Application Starts]
+2012-08-10 13:54:54 Create Transformation Task.
+2012-08-10 13:54:54 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 13:54:54 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 13:54:54 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:54:54 Executing Replace (transform line 7, 22)
+2012-08-10 13:54:54 on /configuration/system.web/compilation
+2012-08-10 13:54:54 Applying to 'compilation' element (no source line info)
+2012-08-10 13:54:54 Replaced 'compilation' element
+2012-08-10 13:54:54 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 13:54:55 Create Transformation Task.
+2012-08-10 13:54:55 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\episerver.config'.
+2012-08-10 13:54:55 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\episerver.config'.
+2012-08-10 13:54:55 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config'.
+2012-08-10 13:54:55 File: , LineNumber: 1, LinePosition: 2, Message: No element in the source document matches '/episerver'
+2012-08-10 13:54:55 Not executing Replace (transform line 2, 23)
+[Application Stops]
+[Application Starts]
+2012-08-10 13:56:22 Create Transformation Task.
+2012-08-10 13:56:22 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 13:56:22 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 13:56:22 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:56:22 Executing Replace (transform line 7, 22)
+2012-08-10 13:56:22 on /configuration/system.web/compilation
+2012-08-10 13:56:22 Applying to 'compilation' element (no source line info)
+2012-08-10 13:56:22 Replaced 'compilation' element
+2012-08-10 13:56:22 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 13:56:22 Create Transformation Task.
+2012-08-10 13:56:22 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\episerver.config'.
+2012-08-10 13:56:22 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\episerver.config'.
+2012-08-10 13:56:22 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config'.
+2012-08-10 13:56:23 File: , LineNumber: 1, LinePosition: 2, Message: No element in the source document matches '/a'
+2012-08-10 13:56:23 Not executing Replace (transform line 2, 8)
+[Application Stops]
+[Application Starts]
+2012-08-10 13:56:48 Create Transformation Task.
+2012-08-10 13:56:48 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 13:56:48 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 13:56:48 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:56:48 Executing Replace (transform line 7, 22)
+2012-08-10 13:56:48 on /configuration/system.web/compilation
+2012-08-10 13:56:48 Applying to 'compilation' element (no source line info)
+2012-08-10 13:56:48 Replaced 'compilation' element
+2012-08-10 13:56:48 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 13:56:48 Create Transformation Task.
+2012-08-10 13:56:48 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\episerver.config'.
+2012-08-10 13:56:48 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\episerver.config'.
+2012-08-10 13:56:48 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config'.
+2012-08-10 13:56:48 File: , LineNumber: 1, LinePosition: 2, Message: No element in the source document matches '/a'
+2012-08-10 13:56:48 Not executing Replace (transform line 2, 8)
+[Application Stops]
+[Application Starts]
+2012-08-10 13:57:29 Create Transformation Task.
+2012-08-10 13:57:29 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 13:57:29 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 13:57:29 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:57:29 Executing Replace (transform line 7, 22)
+2012-08-10 13:57:29 on /configuration/system.web/compilation
+2012-08-10 13:57:29 Applying to 'compilation' element (no source line info)
+2012-08-10 13:57:29 Replaced 'compilation' element
+2012-08-10 13:57:29 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 13:57:29 Create Transformation Task.
+2012-08-10 13:57:29 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\episerver.config'.
+2012-08-10 13:57:29 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\episerver.config'.
+2012-08-10 13:57:29 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config'.
+2012-08-10 13:57:29 File: , LineNumber: 2, LinePosition: 2, Message: No element in the source document matches '/episerver'
+2012-08-10 13:57:29 Not executing Replace (transform line 3, 23)
+[Application Stops]
+[Application Starts]
+2012-08-10 13:58:14 Create Transformation Task.
+2012-08-10 13:58:14 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\episerver.config'.
+2012-08-10 13:58:14 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\episerver.config'.
+2012-08-10 13:58:15 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config'.
+2012-08-10 13:58:15 File: , LineNumber: 2, LinePosition: 2, Message: No element in the source document matches '/episerver'
+2012-08-10 13:58:15 Not executing Replace (transform line 3, 23)
+[Application Stops]
+[Application Starts]
+2012-08-10 13:59:01 Create Transformation Task.
+2012-08-10 13:59:01 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 13:59:01 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 13:59:01 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 13:59:01 Executing Replace (transform line 7, 22)
+2012-08-10 13:59:01 on /configuration/system.web/compilation
+2012-08-10 13:59:01 Applying to 'compilation' element (no source line info)
+2012-08-10 13:59:01 Replaced 'compilation' element
+2012-08-10 13:59:01 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 14:01:20 Create Transformation Task.
+2012-08-10 14:01:20 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 14:01:20 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 14:01:20 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 14:01:20 Executing Replace (transform line 7, 22)
+2012-08-10 14:01:20 on /configuration/system.web/compilation
+2012-08-10 14:01:20 Applying to 'compilation' element (no source line info)
+2012-08-10 14:01:20 Replaced 'compilation' element
+2012-08-10 14:01:20 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 14:01:21 Create Transformation Task.
+2012-08-10 14:01:21 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\connectionStrings.config'.
+2012-08-10 14:01:21 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\connectionStrings.config'.
+2012-08-10 14:01:21 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\connectionStrings.Transform.Config'.
+2012-08-10 14:01:21 Executing Replace (transform line 7, 10)
+2012-08-10 14:01:21 on /connectionStrings/add
+2012-08-10 14:01:21 Applying to 'add' element (no source line info)
+2012-08-10 14:01:21 Replaced 'add' element
+2012-08-10 14:01:21 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 14:03:53 Create Transformation Task.
+2012-08-10 14:03:53 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 14:03:53 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 14:03:53 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 14:03:53 Executing Replace (transform line 7, 22)
+2012-08-10 14:03:53 on /configuration/system.web/compilation
+2012-08-10 14:03:53 Applying to 'compilation' element (no source line info)
+2012-08-10 14:03:53 Replaced 'compilation' element
+2012-08-10 14:03:53 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 14:03:53 Create Transformation Task.
+2012-08-10 14:03:53 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\connectionStrings.config'.
+2012-08-10 14:03:53 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\connectionStrings.config'.
+2012-08-10 14:03:53 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\connectionStrings.Transform.Config'.
+2012-08-10 14:03:53 Executing Replace (transform line 7, 10)
+2012-08-10 14:03:53 on /connectionStrings/add
+2012-08-10 14:03:53 Applying to 'add' element (no source line info)
+2012-08-10 14:03:54 Replaced 'add' element
+2012-08-10 14:03:54 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 14:03:54 Create Transformation Task.
+2012-08-10 14:03:54 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\episerver.config'.
+2012-08-10 14:03:54 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\episerver.config'.
+2012-08-10 14:03:54 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config'.
+2012-08-10 14:03:54 File: , LineNumber: 1, LinePosition: 2, Message: No element in the source document matches '/episerver'
+2012-08-10 14:03:54 Not executing Replace (transform line 2, 12)
+[Application Stops]
+[Application Starts]
+2012-08-10 14:04:36 Create Transformation Task.
+2012-08-10 14:04:36 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 14:04:36 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 14:04:36 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 14:04:36 Executing Replace (transform line 7, 22)
+2012-08-10 14:04:36 on /configuration/system.web/compilation
+2012-08-10 14:04:36 Applying to 'compilation' element (no source line info)
+2012-08-10 14:04:36 Replaced 'compilation' element
+2012-08-10 14:04:36 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 14:04:36 Create Transformation Task.
+2012-08-10 14:04:36 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\connectionStrings.config'.
+2012-08-10 14:04:36 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\connectionStrings.config'.
+2012-08-10 14:04:36 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\connectionStrings.Transform.Config'.
+2012-08-10 14:04:36 Executing Replace (transform line 7, 10)
+2012-08-10 14:04:36 on /connectionStrings/add
+2012-08-10 14:04:36 Applying to 'add' element (no source line info)
+2012-08-10 14:04:36 Replaced 'add' element
+2012-08-10 14:04:36 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 14:04:36 Create Transformation Task.
+2012-08-10 14:04:36 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\episerver.config'.
+2012-08-10 14:04:36 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\episerver.config'.
+2012-08-10 14:04:36 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config'.
+2012-08-10 14:04:36 Executing Replace (transform line 2, 12)
+2012-08-10 14:04:36 on /episerver/sites
+2012-08-10 14:04:36 Applying to 'sites' element (no source line info)
+2012-08-10 14:04:36 Replaced 'sites' element
+2012-08-10 14:04:36 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 14:05:49 Create Transformation Task.
+2012-08-10 14:05:49 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 14:05:49 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 14:05:49 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 14:05:49 Executing Replace (transform line 7, 22)
+2012-08-10 14:05:49 on /configuration/system.web/compilation
+2012-08-10 14:05:49 Applying to 'compilation' element (no source line info)
+2012-08-10 14:05:49 Replaced 'compilation' element
+2012-08-10 14:05:49 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 14:05:49 Create Transformation Task.
+2012-08-10 14:05:49 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\episerver.config'.
+2012-08-10 14:05:49 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\episerver.config'.
+2012-08-10 14:05:49 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config'.
+2012-08-10 14:05:49 Executing Replace (transform line 2, 12)
+2012-08-10 14:05:49 on /episerver/sites
+2012-08-10 14:05:49 Applying to 'sites' element (no source line info)
+2012-08-10 14:05:49 Replaced 'sites' element
+2012-08-10 14:05:49 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 14:06:58 Create Transformation Task.
+2012-08-10 14:06:58 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 14:06:58 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 14:06:58 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 14:06:58 Executing Replace (transform line 7, 22)
+2012-08-10 14:06:58 on /configuration/system.web/compilation
+2012-08-10 14:06:58 Applying to 'compilation' element (no source line info)
+2012-08-10 14:06:58 Replaced 'compilation' element
+2012-08-10 14:06:58 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 14:06:58 Create Transformation Task.
+2012-08-10 14:06:58 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\episerver.config'.
+2012-08-10 14:06:58 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\episerver.config'.
+2012-08-10 14:06:58 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config'.
+2012-08-10 14:06:58 Executing Replace (transform line 2, 12)
+2012-08-10 14:06:58 on /episerver/sites
+2012-08-10 14:06:58 Applying to 'sites' element (no source line info)
+2012-08-10 14:06:58 Replaced 'sites' element
+2012-08-10 14:06:58 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 14:07:38 Create Transformation Task.
+2012-08-10 14:07:38 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\Web.config'.
+2012-08-10 14:07:38 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\Web.config'.
+2012-08-10 14:07:38 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\Web.Transform.Config'.
+2012-08-10 14:07:38 Executing Replace (transform line 7, 22)
+2012-08-10 14:07:38 on /configuration/system.web/compilation
+2012-08-10 14:07:38 Applying to 'compilation' element (no source line info)
+2012-08-10 14:07:38 Replaced 'compilation' element
+2012-08-10 14:07:38 Done executing Replace
+[Application Stops]
+[Application Starts]
+2012-08-10 14:07:38 Create Transformation Task.
+2012-08-10 14:07:38 Start tranformation to 'C:\Projects\EPiBooks\Deploy\\Package\\episerver.config'.
+2012-08-10 14:07:38 Source file: 'C:\Projects\EPiBooks\Web\\EPiBooks\episerver.config'.
+2012-08-10 14:07:38 Transform  file: 'C:\Projects\EPiBooks\Web\\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config'.
+2012-08-10 14:07:39 Executing Replace (transform line 2, 12)
+2012-08-10 14:07:39 on /episerver/sites
+2012-08-10 14:07:39 Applying to 'sites' element (no source line info)
+2012-08-10 14:07:39 Replaced 'sites' element
+2012-08-10 14:07:39 Done executing Replace
+[Application Stops]
