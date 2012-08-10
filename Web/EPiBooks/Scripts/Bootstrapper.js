@@ -18,7 +18,7 @@
 
   })();
 
-  ($(document)).ready(function() {
+  $(function() {
     var strapper;
     strapper = new Bootstrapper;
     return strapper.setup();

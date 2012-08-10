@@ -6,6 +6,6 @@
 			startPage.load()
 			return
 		
-($ document).ready ->
+$ ->
 	strapper = new Bootstrapper
 	strapper.setup()

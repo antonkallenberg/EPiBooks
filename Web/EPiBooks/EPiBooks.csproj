@@ -319,12 +319,19 @@
     <Content Include="README.txt" />
     <None Include="BuildScripts\Bundle.ps1" />
     <None Include="Content\Startpage.less" />
-    <None Include="Scripts\Bootstrapper.coffee" />
+    <None Include="Scripts\Bootstrapper.coffee">
+      <Compile>False</Compile>
+      <Minify>True</Minify>
+      <Bare>False</Bare>
+      <Iced>False</Iced>
+    </None>
     <Content Include="Scripts\jquery-1.7.2-vsdoc.js" />
     <Content Include="Scripts\jquery-1.7.2.js" />
     <Content Include="Scripts\jquery-1.7.2.min.js" />
     <Content Include="Scripts\Startpage.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>

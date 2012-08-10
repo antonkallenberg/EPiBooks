@@ -9423,7 +9423,7 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 
   })();
 
-  ($(document)).ready(function() {
+  $(function() {
     var strapper;
     strapper = new Bootstrapper;
     return strapper.setup();
