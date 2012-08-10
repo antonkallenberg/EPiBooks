@@ -15,9 +15,10 @@ function Build() {
 		}
 		Write-Host "$Environment build done!"
 	}
-	Catch
-	{
-		Exit 1;
+	Catch {
+	}
+	Finally {
+		if ($psake.build_success -eq $false) { exit 1 } else { exit 0 }
 	}
 }
 
