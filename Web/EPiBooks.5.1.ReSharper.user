@@ -8,20 +8,6 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BlockTypes/f:TextBlock.cs" caret="176" fromTop="6" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Views/d:Shared/f:TextBlock.cshtml" caret="55" fromTop="2" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BlockTypes/f:LatestBooksBlock.cs" caret="427" fromTop="11" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Models/f:StartPageViewModel.cs" caret="114" fromTop="5" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:LatestBooksController.cs" caret="1086" fromTop="25" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/f:StartpageController.cs" caret="286" fromTop="7" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/f:BookController.cs" caret="0" fromTop="0" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/f:ArticleController.cs" caret="0" fromTop="0" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="916" fromTop="24" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:MvcTemplatesInitializer.cs" caret="1352" fromTop="38" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:StructureMapDependencyResolver.cs" caret="479" fromTop="15" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:bundler/d:node_modules/d:coffee-script/d:lib/d:coffee-script/f:index.js" caret="171" fromTop="10" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:bundler/d:node_modules/d:coffee-script/d:lib/d:coffee-script/f:coffee-script.js" caret="427" fromTop="0" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:ContentDataRendererController.cs" caret="1080" fromTop="22" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:PageTypes/f:BookPage.cs" caret="0" fromTop="0" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:PageTypes/f:Folder.cs" caret="0" fromTop="0" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Content/f:Normalize.css" caret="645" fromTop="13" />
@@ -34,42 +20,55 @@
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Content/f:Startpage.less" caret="186" fromTop="13" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Scripts/f:Startpage.js" caret="116" fromTop="4" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:Mvc.Bundler.cs" caret="318" fromTop="12" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Bundle.ps1" caret="72" fromTop="0" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Views/d:Shared/f:_Layout.cshtml" caret="0" fromTop="0" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:Web.config" caret="19506" fromTop="15" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Scripts/f:Bootstrapper.coffee" caret="58" fromTop="2" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Tools/d:Config.Transformation.Tool.v1.2/d:Examples/d:02/f:t.config" caret="0" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Tools/d:Config.Transformation.Tool.v1.2/d:Examples/d:02/f:s.config" caret="0" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Tools/d:Config.Transformation.Tool.v1.2/d:Examples/d:03/f:s.config" caret="0" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Tools/d:Config.Transformation.Tool.v1.2/d:Examples/d:03/f:t.config" caret="0" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Tools/d:Config.Transformation.Tool.v1.2/d:Examples/d:01/f:t.config" caret="290" fromTop="9" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Tools/d:Config.Transformation.Tool.v1.2/d:Examples/d:01/f:s.config" caret="0" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Tools/d:Config.Transformation.Tool.v1.2/f:ctt.exe.config" caret="1780" fromTop="45" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Tools/d:Config.Transformation.Tool.v1.2/d:Examples/d:01/f:run.bat" caret="0" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Bundle.ps1" caret="0" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:Web.config" caret="0" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:ConfigTransformations/d:Production/f:Web.Transform.Config" caret="55" fromTop="1" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:episerver.config" caret="1294" fromTop="12" />
+      <File id="18D3CBE9-3B8D-4640-A08A-66A6C9F66363/f:Build.ps1/l:C!?Projects?EPiBooks?Build.ps1" caret="26" fromTop="1" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:ConfigTransformations/d:Production/f:episerver.Transform.config" caret="204" fromTop="4" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="1205" fromTop="34" />
     </RecentFiles>
     <RecentEdits>
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="17" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:LatestBooksController.cs" caret="597" fromTop="9" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:LatestBooksController.cs" caret="1080" fromTop="19" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="19" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="25" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="733" fromTop="10" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="21" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2443" fromTop="22" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="328" fromTop="12" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="32" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="23" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="23" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="11" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2442" fromTop="11" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="1184" fromTop="8" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="1968" fromTop="20" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2078" fromTop="36" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2941" fromTop="43" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="522" fromTop="18" />
-      <File id="55A201EB-061C-485B-AF0E-5570C5769E4E/f:LatestBooksControllerSpecs.cs" caret="2385" fromTop="34" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:MvcTemplatesInitializer.cs" caret="633" fromTop="13" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Controllers/d:Blocks/f:ContentDataRendererController.cs" caret="1080" fromTop="22" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Content/f:app.css.bundle" caret="23" fromTop="1" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Content/f:Startpage.less" caret="147" fromTop="9" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Content/f:Startpage.less" caret="17" fromTop="0" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Scripts/f:Startpage.js" caret="110" fromTop="2" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Content/f:Site.css" caret="85" fromTop="5" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:Web.config" caret="19196" fromTop="11" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Scripts/f:Bootstrapper.coffee" caret="165" fromTop="9" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Scripts/f:Bootstrapper.coffee" caret="58" fromTop="2" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:ConfigTransformations/d:Production/f:Web.Transform.Config" caret="265" fromTop="5" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Tools/d:Config.Transformation.Tool.v1.2/f:ctt.exe.config" caret="237" fromTop="6" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="2147" fromTop="41" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="3140" fromTop="41" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="3221" fromTop="48" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="2367" fromTop="41" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="692" fromTop="16" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="745" fromTop="20" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="1402" fromTop="33" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="1760" fromTop="38" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="2939" fromTop="49" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="625" fromTop="16" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="2472" fromTop="19" />
+      <File id="18D3CBE9-3B8D-4640-A08A-66A6C9F66363/f:Build.ps1/l:C!?Projects?EPiBooks?Build.ps1" caret="55" fromTop="2" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:episerver.config" caret="1705" fromTop="17" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:episerver.config" caret="2133" fromTop="23" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:episerver.config" caret="3150" fromTop="45" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:ConfigTransformations/d:Production/f:Web.Transform.Config" caret="0" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="2362" fromTop="36" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:episerver.config" caret="10" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="1892" fromTop="32" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:ConfigTransformations/d:Production/f:episerver.Transform.config" caret="144" fromTop="2" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:ConfigTransformations/d:Production/f:episerver.Transform.config" caret="920" fromTop="16" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="923" fromTop="30" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="1212" fromTop="29" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="977" fromTop="24" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="1363" fromTop="34" />
+      <File id="18D3CBE9-3B8D-4640-A08A-66A6C9F66363/f:Build.ps1/l:C!?Projects?EPiBooks?Build.ps1" caret="671" fromTop="17" />
+      <File id="18D3CBE9-3B8D-4640-A08A-66A6C9F66363/f:Build.ps1/l:C!?Projects?EPiBooks?Build.ps1" caret="667" fromTop="20" />
+      <File id="18D3CBE9-3B8D-4640-A08A-66A6C9F66363/f:Build.ps1/l:C!?Projects?EPiBooks?Build.ps1" caret="128" fromTop="8" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

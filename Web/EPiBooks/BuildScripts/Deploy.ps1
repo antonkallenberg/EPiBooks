@@ -29,25 +29,47 @@ task setup {
 	Remove-ThenAddFolder "$backupDir\$dateLabel"
 
 	$a = Get-ChildItem "$sourceDir\Libraries\EPiServer.*"
-	if (-not $a.Count)
-	{
+	if (-not $a.Count) {
 		robocopy "C:\Program Files (x86)\EPiServer\CMS\7.0.449.1\bin" "$sourceDir\Libraries" EPiServer.*
+		
+		<# check out => http://ss64.com/nt/robocopy-exit.html #>
+		if($LASTEXITCODE -gt 1) {
+			throw "robocopy commande failed"
+			exit 1
+		}
+
 		robocopy "C:\Program Files (x86)\EPiServer\Framework\7.0.722.1\bin" "$sourceDir\Libraries" EPiServer.*
+		if($LASTEXITCODE -gt 1) {
+			throw "robocopy commande failed"
+			exit 1
+		}
 	}
 }
 
 task compile -depends setup {
 	exec { msbuild  $sourceDir\EPiBooks.sln /t:Clean /t:Build /p:Configuration=$config /v:q /nologo }
 	.\Bundle.ps1
+	if($LASTEXITCODE -ne 0) {
+		throw "Failed to bundle cleint scripts"
+		exit 1
+	}
 }
 
 task test -depends compile { 
 	&"$sourceDir\packages\Machine.Specifications.0.5.7\tools\mspec-clr4.exe" "$testBaseDir\bin\$config\EPiBooks.Tests.dll" 
+	if($LASTEXITCODE -ne 0) {
+		throw "Failed to run unit tests"
+		exit 1
+	}
 }
 
 
 task copyPkg -depends test { 
-	robocopy "$sourceDir\EPiBooks" $deployPkgDir /MIR /XD obj bundler Configurations Properties /XF *.bundle *.coffee *.less *.pdb *.cs *.csproj *.csproj.user *.sln .gitignore README.txt packages.config
+	robocopy "$sourceDir\EPiBooks" "$deployPkgDir" /MIR /XD obj bundler Configurations Properties /XF *.bundle *.coffee *.less *.pdb *.cs *.csproj *.csproj.user *.sln .gitignore README.txt packages.config
+	if($LASTEXITCODE -gt 1) {
+		throw "robocopy commande failed"
+		exit 1
+	}
 }
 
 task mergeConfig -depends copyPkg { 
@@ -55,7 +77,16 @@ task mergeConfig -depends copyPkg {
 		Remove-FileIfExists "$deployPkgDir\Web.config"
 		Remove-FileIfExists "$deployPkgDir\episerver.config" 
 		&"$toolsDir\Config.Transformation.Tool.v1.2\ctt.exe" "s:$sourceDir\EPiBooks\Web.config" "t:$sourceDir\EPiBooks\ConfigTransformations\Production\Web.Transform.Config" "d:$deployPkgDir\Web.config"
+		if($LASTEXITCODE -ne 0) {
+			throw "Config transformation commande failed"
+			exit 1
+		}
+
 		&"$toolsDir\Config.Transformation.Tool.v1.2\ctt.exe" "s:$sourceDir\EPiBooks\episerver.config" "t:$sourceDir\EPiBooks\ConfigTransformations\Production\episerver.Transform.Config" "d:$deployPkgDir\episerver.config"
+		if($LASTEXITCODE -ne 0) {
+			throw "Config transformation commande failed"
+			exit 1
+		}
 	}
 }
 
