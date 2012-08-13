@@ -34,13 +34,13 @@ task setup {
 		
 		<# check out => http://ss64.com/nt/robocopy-exit.html #>
 		if($LASTEXITCODE -gt 1) {
-			throw "robocopy commande failed"
+			throw "robocopy command failed"
 			exit 1
 		}
 
 		robocopy "C:\Program Files (x86)\EPiServer\Framework\7.0.722.1\bin" "$sourceDir\Libraries" EPiServer.*
 		if($LASTEXITCODE -gt 1) {
-			throw "robocopy commande failed"
+			throw "robocopy command failed"
 			exit 1
 		}
 	}
@@ -65,7 +65,8 @@ task test -depends compile {
 
 
 task copyPkg -depends test { 
-	robocopy "$sourceDir\EPiBooks" "$deployPkgDir" /MIR /XD obj bundler Configurations Properties /XF *.bundle *.coffee *.less *.pdb *.cs *.csproj *.csproj.user *.sln .gitignore README.txt packages.config
+	$deployPath = Remove-LastChar "$deployPkgDir"
+	robocopy "$sourceDir\EPiBooks"  "$deployPath" /MIR /XD obj bundler Configurations Properties /XF *.bundle *.coffee *.less *.pdb *.cs *.csproj *.csproj.user *.sln .gitignore README.txt packages.config
 	if($LASTEXITCODE -gt 1) {
 		throw "robocopy commande failed"
 		exit 1
