@@ -18,38 +18,38 @@ properties {
 	$deployToFtp = $true
 }
 
-# the defult task that is executed if no task is defined when calling this script
+# the default task that is executed if no task is defined when calling this script
 task default -depends local
-# task that is used when builing the project at a local development environment, depending on the mergeConfig task 
+# task that is used when building the project at a local development environment, depending on the mergeConfig task 
 task local -depends mergeConfig
 # task that is used when building for production, depending on the deploy task
 task production -depends deploy
 
-# task that is setting up need stuff for the build process 
+# task that is setting up needed stuff for the build process 
 task setup {
 	# remove the ftp module if it's imported
 	remove-module [f]tp
 	# importing the ftp module from the tools dir
 	import-module "$toolsDir\ftp.psm1"
 
-	# removing and creating folders need for the build, deploy package dir, backup dir with a date
+	# removing and creating folders needed for the build, deploy package dir and a backup dir with a date
 	Remove-ThenAddFolder $deployPkgDir
 	Remove-ThenAddFolder $backupDir
 	Remove-ThenAddFolder "$backupDir\$dateLabel"
 
 	<# 
-		checking if any episerver dlls is exising in the Libraries folder. This requires that the build server has episerver 7 installed
+		checking if any episerver dlls is existing in the Libraries folder. This requires that the build server has episerver 7 installed
 		for this application the episerver dlls is not pushed to the source control if we had done that this would not be necessary
 	#>
 	$a = Get-ChildItem "$sourceDir\Libraries\EPiServer.*"
 	if (-not $a.Count) {
 
-		# if no episerver dlls are found, copy the episerver cms dlls with robocopy from episerver installation dir
+		# if no episerver dlls are found, copy the episerver cms dlls with robocopy from the episerver installation dir
 		robocopy "C:\Program Files (x86)\EPiServer\CMS\7.0.449.1\bin" "$sourceDir\Libraries" EPiServer.*
 
 		<# 
-			checking out the last exit code. robocopy is returning a number greater 
-			than 1 if something has gone wrong. For more info check out => http://ss64.com/nt/robocopy-exit.html 
+			checking the last exit code. robocopy is returning a number greater 
+			than 1 if something went wrong. For more info check out => http://ss64.com/nt/robocopy-exit.html 
 		#>
 		if($LASTEXITCODE -gt 1) {
 			throw "robocopy command failed"
@@ -72,7 +72,7 @@ task compile -depends setup {
 	
 	<# 
 		executing Bundle.ps1, Bundle.ps1 is a wrapper around bundler that is compiling client script
-		the wrapper also is executing as post-build script when compiling in debug mode. For more info check out => http://antonkallenberg.com/2012/07/26/using-servicestack-bundler/
+		the wrapper also is executed as post-build script when compiling in debug mode. For more info check out => http://antonkallenberg.com/2012/07/26/using-servicestack-bundler/
 	#>
 	.\Bundle.ps1
 	# checking so that last exit code is ok else break the build
@@ -110,7 +110,7 @@ task copyPkg -depends test {
 task mergeConfig -depends copyPkg { 
 	# only for production
 	if($environment -ieq "production") {
-		# first removing the files that we will do transformations for from the deploy package 
+		# first lets remove the files that will be transformed
 		Remove-IfExists "$deployPkgDir\Web.config"
 		Remove-IfExists "$deployPkgDir\episerver.config" 
 		
@@ -142,12 +142,12 @@ task deploy -depends mergeConfig {
 		# Setting the connection to the production ftp
 		Set-FtpConnection $ftpProductionHost $ftpProductionUsername $ftpProductionPassword
 		
-		# backing up before deploy by downloading and uploading the current webapplication at production enviorment 
+		# backing up before deploy => by downloading and uploading the current webapplication at production enviorment 
 		$localBackupDir = Remove-LastChar "$backupDir" 
 		Get-FromFtp "$backupDir\$dateLabel" "$ftpProductionWebRootFolder"
 		Send-ToFtp "$localBackupDir" "$ftpProductionBackupFolder"
 		
-		# redeploying the application by removing existing application and upload the new one
+		# redeploying the application => by removing the existing application and upload the new one
 		Remove-FromFtp "$ftpProductionWebRootFolder"
 		$localDeployPkgDir = Remove-LastChar "$deployPkgDir"
 		Send-ToFtp "$localDeployPkgDir" "$ftpProductionWebRootFolder"
