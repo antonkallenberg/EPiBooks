@@ -1,6 +1,6 @@
 param(
-    [alias("env")]
-    $Environment = 'debug',
+	[alias("env")]
+	$Environment = 'debug',
 	[alias("ftp")]
 	$DeployToFtp = $true
 )
@@ -16,9 +16,15 @@ function Build() {
 		Write-Host "$Environment build done!"
 	}
 	Catch {
+		throw "build failed"
+		exit 1
 	}
 	Finally {
-		if ($psake.build_success -eq $false) { exit 1 } else { exit 0 }
+		if ($psake.build_success -eq $false) { 
+			exit 1 
+		} else { 
+			exit 0 
+		}
 	}
 }
 
