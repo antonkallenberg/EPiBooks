@@ -75,8 +75,8 @@ task copyPkg -depends test {
 
 task mergeConfig -depends copyPkg { 
 	if($environment -ieq "production") {
-		Remove-FileIfExists "$deployPkgDir\Web.config"
-		Remove-FileIfExists "$deployPkgDir\episerver.config" 
+		Remove-IfExists "$deployPkgDir\Web.config"
+		Remove-IfExists "$deployPkgDir\episerver.config" 
 		&"$toolsDir\Config.Transformation.Tool.v1.2\ctt.exe" "s:$sourceDir\EPiBooks\Web.config" "t:$sourceDir\EPiBooks\ConfigTransformations\Production\Web.Transform.Config" "d:$deployPkgDir\Web.config"
 		if($LASTEXITCODE -ne 0) {
 			throw "Config transformation commande failed"
@@ -106,7 +106,7 @@ task deploy -depends mergeConfig {
 }
 
 #helper methods
-function Remove-FileIfExists([string]$name) {
+function Remove-IfExists([string]$name) {
 	if ((Test-Path -path $name)) {
 		dir $name -recurse | where {!@(dir -force $_.fullname)} | rm
 		Remove-Item $name -Recurse	
@@ -114,7 +114,7 @@ function Remove-FileIfExists([string]$name) {
 }
 
 function Remove-ThenAddFolder([string]$name) {
-	Remove-FileIfExists $name
+	Remove-IfExists $name
 	New-Item -Path $name -ItemType "directory"
 }
 

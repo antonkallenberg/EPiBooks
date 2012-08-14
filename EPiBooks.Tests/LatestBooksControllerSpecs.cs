@@ -35,7 +35,7 @@ namespace EPiBooks.Tests {
             };
 
             private It title_is_passed_to_view = () => {
-                viewModel.LatestBooksBlock.Heading.Equals("latest books", StringComparison.OrdinalIgnoreCase);
+                viewModel.LatestBooksBlock.Heading.ShouldBeEqualIgnoringCase("latest booooks");
                 ContentRepositoryMock.Verify(x => x.GetChildren<BookPage>(LatestBooksBlockMock.Object.BookRoot, ItIs.IsAny<ILanguageSelector>(), 0, 5), Times.Once());
             };
         }
