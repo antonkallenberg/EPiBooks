@@ -1,14 +1,14 @@
 ﻿# properties that is used by the script
 properties {
 	$dateLabel = ([DateTime]::Now.ToString("yyyy-MM-dd_HH-mm-ss"))
-    $baseDir = resolve-path .\..\..\..\
-    $sourceDir = "$baseDir\Web\"
+	$baseDir = resolve-path .\..\..\..\
+	$sourceDir = "$baseDir\Web\"
 	$toolsDir = "$sourceDir\EPiBooks\Tools\"
 	$deployBaseDir = "$baseDir\Deploy\"
 	$deployPkgDir = "$deployBaseDir\Package\"
 	$backupDir = "$deployBaseDir\Backup\"
 	$testBaseDir = "$baseDir\EPiBooks.Tests\"
-    $config = 'debug'
+	$config = 'debug'
 	$environment = 'debug'
 	$ftpProductionHost = 'ftp://127.0.0.1:21/'
 	$ftpProductionUsername = 'anton'
@@ -22,10 +22,10 @@ properties {
 task default -depends local
 # task that is used when builing the project at a local development environment, depending on the mergeConfig task 
 task local -depends mergeConfig
-# task that is used when builing for production, depending on the deploy task
+# task that is used when building for production, depending on the deploy task
 task production -depends deploy
 
-# task that is setting upp need stuff for the build process 
+# task that is setting up need stuff for the build process 
 task setup {
 	# remove the ftp module if it's imported
 	remove-module [f]tp
@@ -38,7 +38,7 @@ task setup {
 	Remove-ThenAddFolder "$backupDir\$dateLabel"
 
 	<# 
-		checking if any episerver dlls is exising in the Libraries folder. this requires that the build server has episerver 7 installed
+		checking if any episerver dlls is exising in the Libraries folder. This requires that the build server has episerver 7 installed
 		for this application the episerver dlls is not pushed to the source control if we had done that this would not be necessary
 	#>
 	$a = Get-ChildItem "$sourceDir\Libraries\EPiServer.*"
@@ -49,8 +49,7 @@ task setup {
 
 		<# 
 			checking out the last exit code. robocopy is returning a number greater 
-			than 1 if someting has gone wrong.
-			for more info check out => http://ss64.com/nt/robocopy-exit.html 
+			than 1 if something has gone wrong. For more info check out => http://ss64.com/nt/robocopy-exit.html 
 		#>
 		if($LASTEXITCODE -gt 1) {
 			throw "robocopy command failed"
@@ -73,7 +72,7 @@ task compile -depends setup {
 	
 	<# 
 		executing Bundle.ps1, Bundle.ps1 is a wrapper around bundler that is compiling client script
-		the wrapper also is executing as post-build script when compiling in debug mode
+		the wrapper also is executing as post-build script when compiling in debug mode. For more info check out => http://antonkallenberg.com/2012/07/26/using-servicestack-bundler/
 	#>
 	.\Bundle.ps1
 	# checking so that last exit code is ok else break the build
@@ -85,7 +84,7 @@ task compile -depends setup {
 
 # running unit tests
 task test -depends compile { 
-	# executing mspec and suppling our test assembly
+	# executing mspec and suppling the test assembly
 	&"$sourceDir\packages\Machine.Specifications.0.5.7\tools\mspec-clr4.exe" "$testBaseDir\bin\$config\EPiBooks.Tests.dll" 
 	# checking so that last exit code is ok else break the build
 	if($LASTEXITCODE -ne 0) {
@@ -96,7 +95,7 @@ task test -depends compile {
 
 # copying the deployment package
 task copyPkg -depends test { 
-	# robocopy has some issue with a trailing slash, so lets remove that
+	# robocopy has some issue with a trailing slash in the path (or it's by design, don't know), lets remove that slash
 	$deployPath = Remove-LastChar "$deployPkgDir"
 	# copying the required files for the deloy package to the deploy folder created at setup
 	robocopy "$sourceDir\EPiBooks" "$deployPath" /MIR /XD obj bundler Configurations Properties /XF *.bundle *.coffee *.less *.pdb *.cs *.csproj *.csproj.user *.sln .gitignore README.txt packages.config
@@ -143,18 +142,12 @@ task deploy -depends mergeConfig {
 		# Setting the connection to the production ftp
 		Set-FtpConnection $ftpProductionHost $ftpProductionUsername $ftpProductionPassword
 		
-		<# 
-			backing up before deploy by downloading and uploading the 
-			current webapplication at production enviorment 
-		#>
+		# backing up before deploy by downloading and uploading the current webapplication at production enviorment 
 		$localBackupDir = Remove-LastChar "$backupDir" 
 		Get-FromFtp "$backupDir\$dateLabel" "$ftpProductionWebRootFolder"
 		Send-ToFtp "$localBackupDir" "$ftpProductionBackupFolder"
 		
-		<#
-			redeploying the application by removing existing 
-			application and upload the new one
-		#>
+		# redeploying the application by removing existing application and upload the new one
 		Remove-FromFtp "$ftpProductionWebRootFolder"
 		$localDeployPkgDir = Remove-LastChar "$deployPkgDir"
 		Send-ToFtp "$localDeployPkgDir" "$ftpProductionWebRootFolder"
