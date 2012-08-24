@@ -140,10 +140,6 @@
       <HintPath>..\Libraries\EPiServer.Web.WebControls.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="EPiServer.WebDav, Version=7.0.449.1, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libraries\EPiServer.WebDav.dll</HintPath>
-    </Reference>
     <Reference Include="EPiServer.WebParts, Version=7.0.449.1, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Libraries\EPiServer.WebParts.dll</HintPath>
