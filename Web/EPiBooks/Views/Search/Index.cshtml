@@ -1,0 +1,34 @@
+﻿@using System.Linq
+@using FindCrawler
+
+@model EPiBooks.Models.SearchResultModel
+
+@{
+    ViewBag.Title = "Search Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="SearchWrapper">
+    @using(Html.BeginForm("GetHits","Search", FormMethod.Post)){
+        @Html.TextBox("query");
+        @Html.DropDownListFor(x => x.SelectedSite, new SelectList(Model.Sites, "value", "key"))
+        <input type="submit" value="search" />
+    }
+
+    @if (Model.SearchResults != null) {
+        <div id="HitsFound">Found <strong>@Model.SearchResults.TotalMatching</strong> matching items</div>
+        <div id="Hits">
+            @foreach (var item in Model.SearchResults.Hits) {   
+                <div class="hit">
+                    @if (item.Document.HtmlPage.ImageSources.Any() && item.Document.HtmlPage.ImageSources.Count > 4) {
+                        <div class="image"><img src="@(new Uri(new Uri(Model.SelectedSite), item.Document.HtmlPage.ImageSources[4]).ToString())" alt="@item.Document.HtmlPage.Title" /></div>
+                    }
+                    <a href="@item.Document.UrlToDocument">@Html.Raw(item.Document.HtmlPage.Title.TruncateOnWordBoundary(90))</a>
+                    @if (item.Document.HtmlPage.TextBlocks.Any()) {
+                        <p>@Html.Raw(item.Document.HtmlPage.TextBlocks[0].TruncateOnWordBoundary(500))</p>
+                    }
+                </div>
+            }
+        </div>
+    }
+</div>

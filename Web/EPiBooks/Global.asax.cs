@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Web.UI;
@@ -13,6 +14,11 @@ using Label = System.Web.UI.WebControls.Label;
 namespace EPiBooks {
     public class Global : EPiServer.Global {
         protected void Application_Start(Object sender, EventArgs e) {
+
+            FindCrawler.Config.Current.Urls = new List<string> { "http://www.sogeti.se", "http://www.sogeti.com" };
+            FindCrawler.Config.Current.NumberOfThreads = 5;
+            FindCrawler.Config.Current.MaximumCrawlDepth = 3;
+
             XFormControl.ControlSetup += new EventHandler(XForm_ControlSetup);
         }
 

@@ -8,8 +8,6 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:PageTypes/f:BookPage.cs" caret="0" fromTop="0" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:PageTypes/f:Folder.cs" caret="0" fromTop="0" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Content/f:Normalize.css" caret="645" fromTop="13" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:bundler/f:bundler.js" caret="518" fromTop="11" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:bundler/f:coffee.cmd" caret="0" fromTop="0" />
@@ -31,12 +29,15 @@
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Tools/d:Config.Transformation.Tool.v1.2/f:ctt.exe.config" caret="1780" fromTop="45" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:Tools/d:Config.Transformation.Tool.v1.2/d:Examples/d:01/f:run.bat" caret="0" fromTop="0" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Bundle.ps1" caret="0" fromTop="0" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:Web.config" caret="0" fromTop="0" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:ConfigTransformations/d:Production/f:Web.Transform.Config" caret="55" fromTop="1" />
-      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:episerver.config" caret="1294" fromTop="12" />
       <File id="18D3CBE9-3B8D-4640-A08A-66A6C9F66363/f:Build.ps1/l:C!?Projects?EPiBooks?Build.ps1" caret="26" fromTop="1" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:ConfigTransformations/d:Production/f:episerver.Transform.config" caret="204" fromTop="4" />
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:BuildScripts/f:Deploy.ps1" caret="1205" fromTop="34" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:packages.config" caret="0" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:Web.config" caret="34316" fromTop="36" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:EPiServerFramework.config" caret="1699" fromTop="11" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:connectionStrings.config" caret="0" fromTop="0" />
+      <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/f:episerver.config" caret="2109" fromTop="22" />
     </RecentFiles>
     <RecentEdits>
       <File id="D11FDDC5-2940-4E9F-8E0B-D0DE275C5781/d:ConfigTransformations/d:Production/f:Web.Transform.Config" caret="265" fromTop="5" />
