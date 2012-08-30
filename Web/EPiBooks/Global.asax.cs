@@ -18,6 +18,8 @@ namespace EPiBooks {
             FindCrawler.Config.Current.Urls = new List<string> { "http://www.sogeti.se", "http://www.sogeti.com" };
             FindCrawler.Config.Current.NumberOfThreads = 5;
             FindCrawler.Config.Current.MaximumCrawlDepth = 3;
+            FindCrawler.Config.Current.LogFilePath = @"C:\Projects\EPiBooks\Web\Logs\";
+            FindCrawler.Config.Current.LogLevel = "DEBUG";
 
             XFormControl.ControlSetup += new EventHandler(XForm_ControlSetup);
         }

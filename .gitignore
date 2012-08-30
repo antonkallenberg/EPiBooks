@@ -36,3 +36,4 @@ Deploy
 /Web/Libraries/EPiServer.XForms.dll
 /Web/Libraries/EPiServer.XmlRpc.dll
 /Web/Libraries/EPiServer.dll
+/Web/Logs/FindCrawler.txt
