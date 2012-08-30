@@ -20,13 +20,34 @@
         <div id="Hits">
             @foreach (var item in Model.SearchResults.Hits) {   
                 <div class="hit">
-                    @if (item.Document.HtmlPage.ImageSources.Any() && item.Document.HtmlPage.ImageSources.Count > 4) {
-                        <div class="image"><img src="@(new Uri(new Uri(Model.SelectedSite), item.Document.HtmlPage.ImageSources[4]).ToString())" alt="@item.Document.HtmlPage.Title" /></div>
-                    }
                     <a href="@item.Document.UrlToDocument">@Html.Raw(item.Document.HtmlPage.Title.TruncateOnWordBoundary(90))</a>
                     @if (item.Document.HtmlPage.TextBlocks.Any()) {
                         <p>@Html.Raw(item.Document.HtmlPage.TextBlocks[0].TruncateOnWordBoundary(500))</p>
+                    } else {
+                        <p>No preview text found...</p>
                     }
+                    <div class="images">
+                        @{ 
+                            var processed = 0;
+                            var images = item.Document.HtmlPage.ImageSources.Where(x => x.ToLowerInvariant().Contains("upload") ||
+                                                                                        x.ToLowerInvariant().Contains("pagefiles"))
+                                                                            .Where(y => !y.ToLowerInvariant().Contains("toppbanners")).ToList();
+                            var numberOfImages = images.Count;
+                            var middleImages = new List<string>();
+                            if(numberOfImages > 4) {
+                                middleImages = images.GetRange(numberOfImages / 2 - 2, numberOfImages / 2 + 2);
+                            }else {
+                                middleImages = images;
+                            }
+                        }
+                        @foreach (var image in middleImages) {
+                            if (processed > 3) {
+                                break;
+                            }
+                            <img src="@(new Uri(new Uri(Model.SelectedSite), image).ToString())" alt="@Html.Raw(item.Document.HtmlPage.Title)" />
+                            processed++;
+                        }
+                    </div>
                 </div>
             }
         </div>

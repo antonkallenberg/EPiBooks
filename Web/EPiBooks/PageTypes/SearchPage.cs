@@ -11,7 +11,7 @@ namespace EPiBooks.PageTypes {
     [AvailablePageTypes(Availability = Availability.None)]
     public class SearchPage : PageData {
         public Dictionary<string, string> GetSites() {
-            return new Dictionary<string, string> { { "Sogeti.se", "http://www.sogeti.se" }, { "Sogeti.com", "http://www.sogeti.com" } };
+            return new Dictionary<string, string> { { "sogeti.se", "http://www.sogeti.se" }, { "sogeti.com", "http://www.sogeti.com" }, { "episerver.com", "http://www.episerver.com" } };
         }
     }
 }

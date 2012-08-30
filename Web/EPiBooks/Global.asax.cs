@@ -15,7 +15,7 @@ namespace EPiBooks {
     public class Global : EPiServer.Global {
         protected void Application_Start(Object sender, EventArgs e) {
 
-            FindCrawler.Config.Current.Urls = new List<string> { "http://www.sogeti.se", "http://www.sogeti.com" };
+            FindCrawler.Config.Current.Urls = new List<string> { "http://www.sogeti.se", "http://www.sogeti.com", "http://www.episerver.com/" };
             FindCrawler.Config.Current.NumberOfThreads = 5;
             FindCrawler.Config.Current.MaximumCrawlDepth = 3;
             FindCrawler.Config.Current.LogFilePath = @"C:\Projects\EPiBooks\Web\Logs\";

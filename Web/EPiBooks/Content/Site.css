@@ -12,7 +12,7 @@ menu#TopMenu .selected {
     margin: 10px 0 10px 0;
 }
 .hit {
-    border-top: 1px dotted #eee;
+    border-top: 1px dotted grey;
     padding: 5px 0 5px 0;
 }
 .hit a {
@@ -22,6 +22,6 @@ menu#TopMenu .selected {
 .hit p {
     margin:0;
 }
-.hit .image img {
-    width: 100%;
+.hit .images img {
+    width: 100px;
 }
